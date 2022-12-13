@@ -8,6 +8,7 @@ class PrototypesController < ApplicationController
     @prototypes = Prototype.all
   end
 
+  
   def new
     @prototype = Prototype.new
   end
